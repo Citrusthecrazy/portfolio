@@ -10,6 +10,10 @@ const Content = styled.p`
   line-height: 36px;
   letter-spacing: 0.04em;
   color: white;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 const Subtitle = styled.h2`
@@ -21,6 +25,11 @@ const Subtitle = styled.h2`
   text-align: right;
   letter-spacing: 0.04em;
   margin-top: 2.25rem;
+
+  @media screen and (max-width: 768px) {
+    font-size: 2rem;
+    text-align: left;
+  }
 `;
 
 const ChipsList = styled.div`
@@ -29,8 +38,13 @@ const ChipsList = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-end;
-  justify-self: flex-end;
   gap: 1rem 0.5rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: flex-start;
+  }
 `;
 
 const Chip = styled.div`
@@ -45,6 +59,10 @@ const Chip = styled.div`
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+  }
 `;
 
 const About = () => {

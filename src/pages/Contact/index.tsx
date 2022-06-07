@@ -55,6 +55,16 @@ const StyledInput = styled(Input)`
       /* Microsoft Edge */
       color: rgba(167, 181, 209, 0.5);
     }
+
+    @media screen and (max-width: 768px) {
+      margin-top: 1rem;
+      font-size: 1rem;
+      line-height: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
   }
 `;
 
@@ -101,6 +111,14 @@ const StyledTextArea = styled(TextArea)<TextAreaProps>`
       /* Microsoft Edge */
       color: rgba(167, 181, 209, 0.5);
     }
+    @media screen and (max-width: 768px) {
+      font-size: 1rem;
+      line-height: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
   }
 `;
 
@@ -127,6 +145,14 @@ const Button = styled.button`
   &:hover {
     cursor: pointer;
     background: hsl(122.02, 60.16%, 44%);
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+    line-height: 1rem;
+    width: 50%;
+    height: auto;
+    padding: 1rem 1rem;
   }
 `;
 

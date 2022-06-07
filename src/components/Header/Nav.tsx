@@ -7,4 +7,8 @@ export const Nav = styled.ul`
   flex-direction: row;
   align-items: flex-end;
   gap: 1rem;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;

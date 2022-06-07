@@ -7,6 +7,12 @@ const CardList = styled.div`
   flex-direction: row;
   overflow: none;
   gap: 2rem;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
 `;
 
 const Card = styled.div`
@@ -29,6 +35,10 @@ const Card = styled.div`
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 const CardTitle = styled.h1`
@@ -42,6 +52,12 @@ const CardTitle = styled.h1`
   align-items: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 1rem;
+    font-size: 2rem;
+    line-height: 1em;
+  }
 `;
 
 const Subtitle = styled.h2`

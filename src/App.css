@@ -2,4 +2,5 @@
     height: 100vh;
     background-color: #242E42;
     color: white;
+    overflow: auto;
 }
