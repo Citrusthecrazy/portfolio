@@ -3,7 +3,7 @@ import styled from "styled-components";
 import programmer from "../../assets/programmer.svg";
 
 export const Container = styled.div`
-  padding: 0% 10%;
+  padding: 0% 20%;
   padding-top: 10rem;
   display: flex;
   flex-direction: row;
@@ -11,6 +11,7 @@ export const Container = styled.div`
   height: auto;
 
   @media screen and (max-width: 768px) {
+    padding: 0% 10%;
     padding-top: 5rem;
     flex-direction: column;
   }
