@@ -62,7 +62,7 @@ const Drawer = styled.div<Drawer>`
   top: 0;
   bottom: 0;
   display: ${(props) => (props.open ? "flex" : "none")};
-  width: 75vw;
+  width:75vw;
   flex-direction: column;
   background-color: white;
   color: #242e42;

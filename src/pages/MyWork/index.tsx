@@ -19,10 +19,14 @@ const Card = styled.div`
   position: relative;
   background: #313f59;
   border-radius: 10px;
-  width: 23rem;
+  width:23rem;
   height: 26rem;
   display: flex;
   flex-direction: column;
+
+  & h1,h2,p{
+    padding-right:1rem;
+  }
 
   &::before {
     content: "";
