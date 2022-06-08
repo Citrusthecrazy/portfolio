@@ -24,6 +24,10 @@ const Logo = styled.h1`
   @media screen and (max-width: 768px) {
     font-size: 1.5rem;
   }
+
+  &:hover{
+    cursor: pointer;
+  }
 `;
 
 const MenuButton = styled.button`
@@ -97,7 +101,7 @@ const Header = () => {
   };
   return (
     <Wrapper>
-      <Logo>Marko Drakulić</Logo>
+      <Logo onClick={() => navigate('/')}>Marko Drakulić</Logo>
       <Nav>
         <NavItem
           active={window.location.pathname === "/"}
