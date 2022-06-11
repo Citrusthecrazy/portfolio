@@ -164,20 +164,20 @@ const Contact = () => {
     <Container>
       <div>
         <Title>Let's get in touch</Title>
-        <StyledInput
-          type="email"
-          value={email}
-          onChange={(e: any) => setEmail(e.target.value)}
-          placeholder="Your e-mail"
-        />
-        <StyledTextArea
-          rows={5}
-          type="email"
-          value={message}
-          onChange={(e: any) => setMessage(e.target.value)}
-          placeholder="Your message"
-        />
-        <Button>Send</Button>
+          <StyledInput
+            type="email"
+            value={email}
+            onChange={(e: any) => setEmail(e.target.value)}
+            placeholder="Your e-mail"
+            />
+          <StyledTextArea
+            rows={5}
+            type="email"
+            value={message}
+            onChange={(e: any) => setMessage(e.target.value)}
+            placeholder="Your message"
+            />
+          <Button>Send</Button>
       </div>
     </Container>
   );

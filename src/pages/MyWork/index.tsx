@@ -176,17 +176,6 @@ const MyWork = () => {
               <SourceLink type="nda" />
             </CardActions>
           </Card>
-          <Card>
-            <CardTitle>This portfolio</CardTitle>
-            <Subtitle>Project description</Subtitle>
-            <Description>
-              The website you’re currently on. I don’t think this needs any
-              further explanation.
-            </Description>
-            <CardActions>
-              <SourceLink href="#" />
-            </CardActions>
-          </Card>
         </CardList>
       </div>
     </Container>
