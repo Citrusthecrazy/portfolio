@@ -5,8 +5,15 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import MyWork from "./pages/MyWork";
 import Contact from "./pages/Contact";
+import ReactGA from "react-ga";
+import { useEffect } from "react";
+
+ReactGA.initialize("UA-231872780-1");
 
 function App() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
   return (
     <div className="App">
       <Router>
